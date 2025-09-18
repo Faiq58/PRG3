@@ -1,4 +1,4 @@
-#Menggunakan Bahasa pemrograman C#, buat project aplikasi console (tema bebas) dengan mengimplementasikan konsep OOP berikut:
+Menggunakan Bahasa pemrograman C#, buat project aplikasi console (tema bebas) dengan mengimplementasikan konsep OOP berikut:
 1. Class & Object
 
 2. Constructor
