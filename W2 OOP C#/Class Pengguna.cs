@@ -1,17 +1,18 @@
-public class Pengguna
+class User
 {
-    private string _nama;
-    private int _idAnggota;
+    private string name;
+    public int ID { get; private set; }
 
-    public string Nama
+    public User(int id, string name)
     {
-        get { return _nama; }
-        set
-        {
-            if (!string.IsNullOrEmpty(value))
-            {
-                _nama = value;
-            }
-        }
+        this.ID = id;
+        this.name = name;
     }
+
+    public virtual void DisplayInfo()
+    {
+        Console.WriteLine($"User: {name} (ID: {ID})");
+    }
+
+    public string GetName() => name;
 }
